@@ -126,8 +126,8 @@ def menu():
     print '             LOGIN ID : ' + name
     print ''
     print 47 * '-'
-    print ' \x1b[1;91m          𝐇𝐚𝐜𝐤𝐢𝐧𝐠 𝐢𝐬 𝐧𝐨𝐭 𝐚 𝐜𝐫𝐢𝐦𝐞 𝐢𝐭𝐬 𝐚 𝐩𝐚𝐬𝐬𝐢𝐨𝐧 '
-    print '         𝐭𝐢𝐥𝐥 𝐭𝐡𝐞 𝐭𝐢𝐦𝐞 𝐲𝐨𝐮 𝐩𝐥𝐚𝐲 𝐰𝐢𝐭𝐡 𝐢𝐭 𝐬𝐚𝐟𝐞𝐥𝐲'
+    print ' \x1b[1;91m          Hacking is not a crime its a passion '
+    print '         Till the time you play with it safely'
     print '\x1b[1;97m'
     print 47 * '-'
     print ''
