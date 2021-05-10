@@ -17,7 +17,7 @@ reload(sys)
 sys.setdefaultencoding('utf8')
 os.system('termux-setup-storage')
 os.system('clear')
-logo = '\n\n\x1b[1;92m\n  ___   _   _  _   __\n / _ \ | | | || | / /\n/ /_\ \| |_| || |/ / \n\x1b[1;93m IJAXO UPDATE 2.0.1 " \n\x1b[1;92m\n/|  _  ||  _  ||    \ \n| | | || | | || |\  \ \n\_| |_/\_| |_/\_| \_/\n\x1b[1;97m----------------------------------------------\n   Author   : Ijaz Afridi\n   Github   : https://github.com/Mrbadmash\n   Youtube  : Afridi Tricks\n----------------------------------------------\n             \x1b[1;92mFREE MODE ACTIVATED\n\x1b[1;97m------------------------------------------------\nBE A GOOD PERSON BUT DONT WASTE TIME TO PROVE IT\n------------------------------------------------ '
+logo = '\n\n\x1b[1;92m\n  ___   _   _  _   __\n / _ \ | | | || | / /\n/ /_\ \| |_| || |/ / \x1b[1;93m IJAXO UPDATE 2.0.1"\n\x1b[1;92m\n/|  _  ||  _  ||    \ \n| | | || | | || |\  \ \n\_| |_/\_| |_/\_| \_/\n\x1b[1;97m----------------------------------------------\n   Author   : Ijaz Afridi\n   Github   : https://github.com/Mrbadmash\n   Youtube  : Afridi Tricks\n----------------------------------------------\n             \x1b[1;92mFREE MODE ACTIVATED\n\x1b[1;97m------------------------------------------------\nBE A GOOD PERSON BUT DONT WASTE TIME TO PROVE IT\n------------------------------------------------ '
 CorrectUsername = 'AFRIDI'
 loop = 'true'
 while loop == 'true':
